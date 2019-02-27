@@ -1,0 +1,49 @@
+body { height: 90%; padding: 1; margin: 3; }
+
+.introHeader {
+    color: black;
+    text-align: left;
+    font-family: verdana; 
+    font-size: 15px;
+    max-width: 50%;
+    margin: 10px;
+    padding-left: 15px;
+    background-color:lightblue;
+    display:flex;
+}
+
+.intro {
+color: black;
+padding-left: 60px;
+
+
+
+}
+  }
+.Name {
+font-size: 25px;
+font-family: Cambria;
+margin-top: 50px;
+padding-left: 30px; 
+
+}
+
+.myProfilePic {
+    border-radius:15px;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    float: left;
+    display: flex; 
+  }
+
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
