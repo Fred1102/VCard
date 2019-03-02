@@ -4,15 +4,17 @@ body {
   margin: 3;
 }
 
+*{  color: black;
+  text-align: left;
+  font-family: verdana;
+  font-size: 15px;
+}
+
 .container {
   margin: 50px;
 }
 
 .introHeader {
-  color: black;
-  text-align: left;
-  font-family: verdana;
-  font-size: 15px;
   padding: 20px;
   background-color: lightblue;
   display: flex;
@@ -73,26 +75,32 @@ body {
   min-width: 200px;
   flex-basis: 25%;
   min-height: 200px;
+
+}
+
+.green {
+  background:linear-gradient(90deg, rgb(142, 169, 193), rgb(74, 93, 113));
+}
+
+.red {
+  background:-webkit-linear-gradient(90deg, rgb(142, 169, 193), rgb(91, 146, 74));
+  background: linear-gradient(90deg, rgb(142, 169, 193), rgb(91, 146, 74));
+  ;
+}
+.blue {
+  
+background: -webkit-linear-gradient(90deg, rgb(142, 169, 193), rgb(208, 188, 138));
+background: linear-gradient(90deg, rgb(142, 169, 193), rgb(208, 188, 138));
+
+}
+.pink {
+ 
+background: -webkit-linear-gradient(90deg, rgb(142, 169, 193), rgb(232, 178, 241));
+background: linear-gradient(90deg, rgb(142, 169, 193), rgb(232, 178, 241));
+
 }
 
 .card iframe {
   width: 200px;
   height: 200px;
-}
-
-.green {
-  background-color: green;
-}
-
-.red {
-  background-color: red;
-}
-.blue {
-  background-color: blue;
-}
-.pink {
-  background-color: pink;
-}
-.yellow {
-  background-color: yellow;
 }
