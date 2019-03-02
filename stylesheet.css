@@ -1,100 +1,98 @@
-body { height: 100%; padding: 1; margin: 3; }
+body {
+  height: 100%;
+  padding: 1;
+  margin: 3;
+}
+
+.container {
+  margin: 50px;
+}
 
 .introHeader {
-    color: black;
-    text-align: left;
-    font-family: verdana; 
-    font-size: 15px;
-    max-width: 100%;
-    margin: 100px;
-    padding-left: 15px;
-    height: 300px;
-    background-color:lightblue;
-    display:flex;
+  color: black;
+  text-align: left;
+  font-family: verdana;
+  font-size: 15px;
+  padding: 20px;
+  background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.Name {
+.myProfilePic {
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+}
+
+.bio {
+  min-width: 200px;
+  flex: 1;
+  padding: 0 20px;
+}
+
+.bio h1 {
   font-size: 20px;
   font-family: Cambria;
-  margin-top: 10px;
-  padding-left: 60px;
-  display: flex; 
-  flex-direction: column; 
-  }
-  
-
-  .intro {
-color: black;
-padding-left: 60px;
-margin-top:80px;
-display: flex; 
+  display: flex;
+  margin: 0;
+  flex-direction: column;
 }
 
- 
-  .myProfilePic {
-    border-radius:15px;
-    width: 200px;
-    height: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 40px;
-    float: left;
-    display: flex; 
-  }
+.bio p {
+  color: black;
+  display: flex;
+}
 
-  .fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 50px;
-    text-align: right;
-    text-decoration: none;
-  }
+.media-buttons {
+  display: flex;
+  flex-direction: column;
+}
 
-.myCompetences {
-  background-color: rgb(143, 82, 92);
-  border-radius:15px;
-  width: 400px;
+.media-buttons .fa {
+  text-align: right;
+  text-decoration: none;
+}
+
+.card-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.card-list li h2 {
+  margin: 0;
+}
+.card-list .card {
+  min-width: 200px;
+  flex-basis: 25%;
+  min-height: 200px;
+}
+
+.card iframe {
+  width: 200px;
   height: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 40px;
-  float: left;
-  display: flex; 
 }
 
-.myDiplomas {
-  background-color: rgb(162, 211, 148);
-  border-radius:15px;
-  width: 400px;
-  height: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 40px;
-  float: left;
-  display: flex; 
+.green {
+  background-color: green;
 }
 
-.myContact {
+.red {
   background-color: red;
-  border-radius:15px;
-  width: 400px;
-  height: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 40px;
-  float: left;
-  display: flex; 
 }
-
-.myMovie {
-  background-color: red;
-  border-radius:15px;
-  width: 400px;
-  height: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 40px;
-  float: left;
-  display: flex; 
-
+.blue {
+  background-color: blue;
+}
+.pink {
+  background-color: pink;
+}
+.yellow {
+  background-color: yellow;
 }
